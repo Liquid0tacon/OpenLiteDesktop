@@ -47,7 +47,7 @@ async function obtainGameClient() {
     async function fetchLatestClient() {
 
         // Define the highspell url
-        const highSpellClientURL = `https://openspell.dev/js/client/client.${highSpellAssetJSON.data.latestClientVersion}.js`;
+        const highSpellClientURL = `https://cdn.openspell.dev/js/client/client.${highSpellAssetJSON.data.latestClientVersion}.js`;
 
         // Log the url
         console.log(highSpellClientURL);
